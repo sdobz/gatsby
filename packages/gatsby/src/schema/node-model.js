@@ -524,7 +524,7 @@ class LocalNodeModel {
       ids = []
     }
     if (obj?.parent) {
-      ids.push(obj.parent)
+      ids.add(obj.parent)
     }
     let matchingRoot = null
 
